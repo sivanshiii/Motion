@@ -1,0 +1,194 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Google Workspace Pricing</title>
+  <link rel="stylesheet" href="pricing.css">
+  <style>
+    @font-face {
+font-family: customfont;
+src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+     body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+    header {
+      background-color: #ffffff;
+      color: rgb(21, 19, 19);
+      text-align: justify;
+      padding: 1rem 0;
+    }
+    .pricing-table {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 2rem;
+    }
+    .plan {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 1rem;
+      padding: 1.5rem;
+      width: 280px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .plan:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .plan h2 {
+      color: #0b0a0a;
+    }
+    .price {
+      font-size: 1.5rem;
+      color: #0e0d0d;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #eee;
+    }
+    button {
+      background-color: #98fbcb;
+      color: rgb(15, 12, 12);
+      border: none;
+      padding: 0.75rem;
+      border-radius: 4px;
+      width: 100%;
+      cursor: pointer;
+      margin-top: 1rem;
+      transition: background-color 0.2s, transform 0.2s;
+    }
+    button:hover {
+      background-color: #98fbcb;
+      transform: scale(1.05);
+    }   
+    .adya{
+        background-color: #98fbcb;
+      color: rgb(21, 19, 19);
+      padding: 1rem 0;   
+     text-align: center;
+    } 
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topnav">
+        <div class="dropdown">
+            <a href="#">Products</a>
+            <div class="dropdown-content">
+                <a href="#">Docs</a>
+                <a href="#">Calendar </a>
+                <a href="#">Wiki</a>
+                <a href="#">Goals</a>
+                <a href="projects.html">Projects</a>
+                <a href="#">AI</a>
+                <a href="#">Templates</a>
+            </div>
+        </div>
+        <a href="homepage.html">Home</a>      
+        <div class="dropdown">
+            <a href="#">Teams</a>
+            <div class="dropdown-content">
+                <a href="#">Proudct</a>
+                <a href="#">Engineering </a>
+                <a href="#">Design</a>
+                <a href="#">Marketing</a>
+                <a href="#">IT</a>
+                <a href="#">Startups</a>
+                <a href="#">Enterprise</a>
+                <a href="#">Customer Stories</a>
+        
+            </div>
+        </div>
+        <!-- <a href="#">Individuals</a> -->
+        <div class="dropdown">
+            <a href="#">Individuals</a>
+            <div class="dropdown-content">
+                <a href="#">Personal</a>
+                <a href="#">Students </a>
+                <a href="#">Teachers</a>
+                <a href="#">Creators</a>
+                
+            </div>
+        </div>
+        <a href="pricing.html">Pricing</a>
+        <a href="help.html">Help</a>
+        <a href="register.html" class="right">Register</a>
+        <a href="login.html" class="right">Login</a>
+    </div>
+    <div class="adya"><h1>Motion Plans</h1></div>
+  </header>
+  <main>
+    <section class="pricing-table">
+        <div class="plan">
+          <!-- <img src="free.png" alt="Free Plan" width="100%"> -->
+          <h2>Free Plan</h2>
+          <p class="price">Rs. 0</p>
+          <ul>
+            <li>Collaborative workspace</li>
+            <li>Integrate with Slack, GitHub & more</li>
+            <li>Basic page analytics</li>
+            <li>7 day page history</li>
+            <li>Invite 10 guests</li>
+          </ul>
+          <button>Register</button>
+        </div>
+        <div class="plan">
+          <!-- <img src="plus.png" alt="Plus Plan" width="100%"> -->
+          <h2>Plus +</h2>
+          <p class="price">Rs. 399 per seat/month</p>
+          <ul>
+            <li>Unlimited blocks for teams</li>
+            <li>Unlimited file uploads</li>
+            <li>30 day page history</li>
+            <li>Invite 100 guests</li>
+            <li>Synced databases with 3rd party apps</li>
+            <li>Custom websites</li>
+            <li>Custom automations</li>
+            <li>Charts & dashboards</li>
+          </ul>
+          <button>Select Plan</button>
+        </div>
+        <div class="plan">
+          <!-- <img src="business.jpg" alt="Business Plan" width="100%"> -->
+          <h2>Business</h2>
+          <p class="price">Rs. 499 per seat/month</p>
+          <ul>
+            <li>SAML SSO</li>
+            <li>Private teamspaces</li>
+            <li>Bulk PDF export</li>
+            <li>Advanced page analytics</li>
+            <li>90 day page history</li>
+            <li>Invite 250 guests</li>
+          </ul>
+          <button>Select Plan</button>
+        </div>
+        <div class="plan">
+          <!-- <img src="enterprise.png" alt="Enterprise Plan" width="100%"> -->
+          <h2>Enterprise</h2>
+          <p class="price">Contact sales for pricing</p>
+          <ul>
+            <li>User provisioning (SCIM)</li>
+            <li>Advanced security & controls</li>
+            <li>Audit log</li>
+            <li>Customer success manager</li>
+            <li>Workspace analytics</li>
+            <li>Unlimited page history</li>
+            <li>Security & Compliance integrations</li>
+            <li>Invite 250 guests</li>
+          </ul>
+          <button>Contact Sales</button>
+        </div>
+      </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion Projects Clone</title>
+    <style>
+        @font-face {
+font-family: customfont;
+src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+        body {
+            background-color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            padding: 20px;
+            width: 100%;
+          
+        }
+        .text-content {
+            flex: 1;
+            padding-right: 50px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .text-content h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .text-content p {
+            font-size: 18px;
+            color: #333;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .primary {
+            background: black;
+            color: white;
+        }
+        .secondary {
+            background: #F3F3F3;
+            color: black;
+            border: 1px solid #CCC;
+        }
+        .image-content {
+            flex: 1;
+        }
+        .image-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .dashboard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: lightcyan;
+        }
+        .dashboard h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+          
+        }
+        .dashboard .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: #F9F9F9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            width: calc(50% - 10px);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="text-content">
+            <h1>Manage projects from beginning to end</h1>
+            <p>With Motion’s connected workspace, get your projects to the finish line faster and with less context switching.</p>
+            <div class="buttons">
+                <button href="pricing.html" class="button primary">Get Motion free</button>
+                <button class="button secondary">Request a demo</button>
+            </div>
+        </div>
+        <div class="image-content">
+            <img src="icons/image1.PNG" alt="Motion Illustration">
+        </div>
+    </div>
+
+    <div class="dashboard">
+        <h2>Infinitely configurable, so you can work the way you want</h2>
+        <div class="grid">
+            <div class="card" style="width: 100%;">
+                <h3>View projects as a timeline</h3>
+                <p>See the bigger picture of how projects fit together.</p>
+                <img src="icons/image2.PNG" alt="Project roadmap">
+            </div>
+            <div class="card">
+                <h3>Capture every detail in a table</h3>
+                <p>Track all the specific items that ladder up to bigger launches.</p>
+                <img src="icons/image33.PNG" alt="Launch checklist">
+            </div>
+            <div class="card">
+                <h3>Visualize progress with charts</h3>
+                <p>Create a dashboard with charts from multiple sources.</p>
+                <img src="icons/image4.PNG" alt="Project tracker">
+            </div>
+            <div class="card">
+                <h3>Choose the exact info you want to track</h3>
+                <p>Create custom labels, status tags, and more.</p>
+                <img src="icons/image5.PNG" alt="Core project management">
+            </div>
+            <div class="card">
+                <h3>Automate your team workflows</h3>
+                <p>Spend less time on manual tasks with automation.</p>
+                <img src="icons/image6.PNG" alt="Automate workflows">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
