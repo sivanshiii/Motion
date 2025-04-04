@@ -12,8 +12,5 @@ Motion is a web programming mini-project built using HTML, CSS JavaScript and Re
 
 # Features
 - User authentication (login/signup)
-- Dashboard with customizable pages
-- Drag-and-drop functionality for organizing tasks
-- Real-time content editing
-- Responsive design for mobile and desktop views
+
 
